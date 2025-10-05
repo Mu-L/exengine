@@ -4,8 +4,6 @@ bye
 -------
 # exengine, a C 3D game engine.
 
-[Discuss](https://webchat.freenode.net/##oodnet) | [Website](https://exez.in/exengine) | [TODO](https://github.com/exezin/exengine/projects/1)
-
 ### What exactly is exengine?
 exengine is a 3d engine that takes a slightly different approach than other libraries and engines do, in that it's a code-base you include directly into your own.  Rather than using it as a static/shared library.
 
