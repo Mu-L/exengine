@@ -42,6 +42,24 @@ ex_model_t* ex_model_copy(ex_model_t *model)
       ex_model_add_mesh(m, ex_mesh_copy(model->meshes[i]));
   }
 
+  // copy anims ref
+  m->anims = model->anims;
+  m->anims_len = model->anims_len;
+
+  m->inverse_base = model->inverse_base;
+  m->skeleton = model->skeleton;
+  m->bones = model->bones;
+  m->anims = model->anims;
+
+  m->frames = model->frames;
+  m->bind_pose = model->bind_pose;
+  m->pose = model->pose;
+
+  m->bones_len = model->bones_len;
+  m->anims_len = model->anims_len;
+  m->frames_len = model->frames_len;
+  m->use_transform = model->use_transform;
+
   // init instancing matrix vbos etc 
   ex_model_init_instancing(m, 1);
   
