@@ -2,6 +2,7 @@
 #define EX_MATHLIB_H
 
 #include <math.h>
+#include <string.h>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
